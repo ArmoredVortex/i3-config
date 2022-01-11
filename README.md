@@ -16,3 +16,7 @@ Details about the setup:
 + **Launcher**: [dmenu](https://tools.suckless.org/dmenu/)
 + **Browser**: [Firefox](https://www.mozilla.org/en-US/firefox/browsers)
 + **Display Manager**: [ly](https://github.com/nullgemm/ly)
++ **Compositor**: picom (fork of [ibhagwan](https://github.com/ibhagwan/picom) or [jonaburg](https://github.com/jonaburg/picom))
++ **Workspace Icons**: [Font Awesome](https://fontawesome.com)
++ **Screenshot**: [flameshot](https://flameshot.org/)
++ **Sound Server**: [pipewire](https://pipewire.org/)
