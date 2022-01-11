@@ -1,0 +1,50 @@
+separator_block_width=25
+
+[disk-root]
+label=  
+command=~/.config/i3blocks/disk/disk /
+interval=30
+color=#9aedfe
+
+[memory]
+label=  
+command=~/.config/i3blocks/memory/memory
+interval=15
+color=#ff6ac1
+
+[cpu]
+label=  
+command=~/.config/i3blocks/cpu_usage/cpu_usage
+interval=5
+color=#ff5c57
+
+[load]
+label=  
+command=~/.config/i3blocks/load_average/load_average
+interval=5
+color=#57c7ff
+
+[temperature]
+label=  
+command=~/.config/i3blocks/temperature/temperature
+interval=10
+color=#F9E060
+SENSOR_CHIP=coretemp-isa-0000
+
+[volume]
+command=echo "$(if pactl info | grep Sink | grep -q Headset; then echo ; else echo ; fi)  $(~/.config/i3blocks/volume/volume)"
+interval=2
+signal=10
+color=#FFB86C
+
+[battery]
+command=python ~/.config/i3blocks/battery/battery.py
+label=
+markup=pango
+interval=15
+
+[time]
+label=  
+command=date '+%a %d %b %R:%S %p'
+interval=1
+color=#5af78e
