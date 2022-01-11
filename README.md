@@ -1,7 +1,7 @@
 # i3-config
 Dotfiles for my i3 setup
 <br>
-<img src=".assets/setup.png" align="right" width="500px">
+<img src=".assets/setup2.png" align="right" width="500px">
 
 
 Details about the setup:
