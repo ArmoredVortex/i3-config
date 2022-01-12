@@ -32,7 +32,7 @@ color=#F9E060
 SENSOR_CHIP=coretemp-isa-0000
 
 [volume]
-command=echo "$(if pactl info | grep Sink | grep -q Headset; then echo ; else echo ; fi)  $(~/.config/i3blocks/volume/volume)"
+command=echo "$(if pactl info | grep Sink | grep -q bluez; then echo ; else echo ; fi)  $(~/.config/i3blocks/volume/volume)"
 interval=2
 signal=10
 color=#FFB86C
