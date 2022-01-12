@@ -39,7 +39,6 @@ color=#FFB86C
 
 [battery]
 command=python ~/.config/i3blocks/battery/battery.py
-label=
 markup=pango
 interval=15
 
